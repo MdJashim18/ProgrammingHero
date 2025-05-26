@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        form {
+            width: 500px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input {
+            margin-bottom: 15px;
+        }
+
+        .input label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .input input[type="text"],
+        .input input[type="email"],
+        .input input[type="color"],
+        .input input[type="date"],
+        .input input[type="datetime-local"],
+        .input input[type="file"],
+        .input input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .input input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .input input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .input input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h2>Registration Form</h2>
+
+            <div class="input">
+                <label for="input-name">Enter Your Name:</label>
+                <input type="text" placeholder="Enter Your Name" name="name" id="input-name">
+            </div>
+
+            <div class="input">
+                <label for="input-email">Enter Your Email:</label>
+                <input type="email" placeholder="Enter Your Email" name="email" id="input-email">
+            </div>
+
+            <div class="input">
+                <label for="input-color">Enter Favorite Color:</label>
+                <input type="color" name="color" id="input-color">
+            </div>
+
+            <div class="input">
+                <label for="input-date">Enter Your Birthday:</label>
+                <input type="date" name="date" id="input-date">
+            </div>
+
+            <div class="input">
+                <label for="input-datetime-local">Enter Your Joining Date:</label>
+                <input type="datetime-local" name="datetime-local" id="input-datetime-local">
+            </div>
+
+            <div class="input">
+                <label for="input-file">Upload Your Photo:</label>
+                <input type="file" name="file" id="input-file">
+            </div>
+
+            <div class="input">
+                <label>Select Your Gender:</label>
+                <input type="radio" value="Male" name="gender"> Male
+                <input type="radio" value="Female" name="gender"> Female
+            </div>
+
+            <div class="input">
+                <label for="input-number">Enter Your Phone Number:</label>
+                <input type="number" placeholder="Enter Your Number" name="number" id="input-number">
+            </div>
+
+            <div class="input">
+                <label for="input-age">Enter Your Age:</label>
+                <input type="number" placeholder="Enter Your Age" name="age" id="input-age">
+            </div>
+
+            <div class="input">
+                <input type="radio" name="agreement"> I agree to the terms and conditions
+            </div>
+
+            <div class="input">
+                <input type="button" value="Register Now">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,187 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #ebdcff);
+}
+#banner{
+    /* margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 100px auto 120px auto;
+    width: 87.5%;
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid #872bff10;
+    padding: 20px 30px;
+    background-image: url("images/hero-bg.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content *{
+    margin-top: 20px;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content h1 span{
+    color: #F411CF;
+}
+.banner-content p{
+    font-weight: medium;
+    font-size: 18px;
+    color: #a8a8aa;
+}
+.btn{
+    background-color: #872bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-white{
+    /* background-color: #872bff; */
+    border-radius: 30px;
+    padding: 16px 32px;
+    /* color: white; */
+    cursor: pointer;
+    margin-right: 20px;
+    border: 2px solid #872bff;
+}
+.banner-image img{
+    width: 600px;
+}
+#service,#story,#country,#tourist{
+    width:87.5%;
+    margin: 0px auto 120px auto;
+}
+.heading-content{
+    text-align: center;
+}
+.heading-content h4{
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.heading-content h2{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.service-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.service-card{
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    width: 300px;
+    border-radius: 30px;
+}
+.service-card img{
+    margin-bottom: 30px;
+}
+.service-card h2{
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.service-card p{
+    color: #a8a8aa;
+}
+.story-card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+}
+.story-content h2,
+.story-content p,
+.story-content img{
+    margin-bottom: 30px;
+}
+
+#country-card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 120px; */
+}
+#country-card-container h2{
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+}
+#tourist-card{
+    background-color: white;
+    padding: 24px;
+    align-items: center;
+    border-radius: 16px;
+    margin: 60px 0px;
+}
+#tourist-img{
+    background-image: url("images/star-reviews.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.tourist-card-p{
+    line-height: 24px;
+    /* padding: 10px; */
+    text-align: center;
+    color: #0E0E0E;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#tourist-card h4{
+    color: #0E0E0E;
+    text-align: center;
+}
+.tourist-card-p1{
+    color: #a8a8aa;
+    text-align: center;
+}
+
+#footer-container{
+    
+    width: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #F3F3F3;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px 15px 120px;
+}
+.footer-icon ul{
+    display: flex;
+    gap: 20px;
+}
+.footer-icon ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #872bff;
+}
+.footer-content p{
+    color: #5B5757;
+}
