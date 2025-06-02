@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            .container1{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+            }
+            .container2{
+                height: 100px;
+                width: 100px;
+                background-color: green;
+            }
+            .container3{
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+            }
+            .container4{
+                height: 100px;
+                width: 100px;
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navbar -->
+        <div
+            class="flex justify-between  bg-green-500 text-white items-center px-[50px] py-5 mb-3">
+            <div class="flex items-center">
+                <img src="star.jpg" class="w-10 h-10" alt>
+                <h1 class="ml-3">Programming Hero</h1>
+            </div>
+            <div class="flex">
+                <p class="mr-5">Home</p>
+                <p class="mr-5">Products</p>
+                <p class="mr-5">About</p>
+                <p class="mr-5">Success</p>
+            </div>
+        </div>
+        <!-- <div class="p-[5px] border-4 border-red-500 flex justify-evenly h-[500px] items-center flex-col">
+            <div class="container1">1</div>
+            <div class="container2">2</div>
+            <div class="container3">3</div> 
+            <div class="container4">4</div>
+        </div> -->
+
+        <!-- grid -->
+        <!-- <div class="border-2 border-red-500 p-5 h-[500px] grid grid-cols-3 gap-5">
+            <div class="child1 bg-red-500 ">1</div>
+            <div class="child2 bg-blue-500">2</div>
+            <div class="child3 bg-yellow-500">3</div>
+            <div class="child4  bg-green-500">4</div>
+            <div class="child5 bg-violet-500">5</div>
+            <div class="child6  bg-cyan-500">6</div>
+            <div class="child1  bg-red-500 ">7</div>
+            <div class="child2  bg-blue-500">8</div>
+            <div class="child3  bg-yellow-500">9</div>
+            <div class="child4  bg-green-500">10</div>
+            <div class="child5  bg-violet-500">11</div>
+            <div class="child6  bg-cyan-500">12</div>
+        </div> -->
+        <!-- <div class="grid grid-cols-3 gap-5 mb-40">
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+            <div class="border-1 border-red-500">
+                <img src="star.jpg" alt class="w-[150px] block mx-auto">
+                <div class="text-center">
+                    <h1>Programming Hero</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illo nostrum repellendus temporibus maxime dolorem
+                        tempora.</p>
+                    <button
+                        class="border-2 border-blue-500 p-3 rounded-lg hover:bg-yellow-600 hover:text-white duration-500">See
+                        Details</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

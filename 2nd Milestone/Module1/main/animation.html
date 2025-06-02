@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            transition: 2s;
+            position: relative;
+           animation: rotating 2s infinite alternate;
+           animation-timing-function: ease-in-out;
+           border-radius: 50%;
+        }
+        /*.container:hover{
+            transform: translateX(600px);
+            border-radius: 50%;
+            background-color: red;
+        }*/
+        img{
+           
+           /*animation-timing-function: linear;*/
+           /*animation-timing-function: ease-in;
+           animation-timing-function: ease-out;*/
+           
+           
+            /* margin: 200px;
+            transition: 2s;*/
+        }
+        /*
+        img:hover{
+            transform: rotate(360deg) scale(3) ;
+        }*/
+        @keyframes rotating{
+            from{
+                top: 0px;
+            }
+            to{
+                top: 500px;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <!-- <img src="css-icon.png" alt=""> -->
+</body>
+</html>

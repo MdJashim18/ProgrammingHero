@@ -1,0 +1,190 @@
+/* laptop device */
+@media screen and (max-width:1200px) {
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .card {
+        width: 250px;
+    }
+}
+
+/* Tablet device */
+@media screen and (max-width:1024px) {
+    #nav {
+        margin: 0px auto 0px auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 0px 14px 0px;
+        align-items: center;
+    }
+
+    #nav h3 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .btn {
+        color: #0D1321;
+        background: linear-gradient(-90deg, #FFA500, #FFD447);
+        padding: 7px 12px 7px 12px;
+        border-radius: 10px;
+        border: 1px solid #FFA500;
+        font-weight: SemiBold;
+        font-size: 10px;
+        box-shadow: 2px 5px 5px 0px gray;
+    }
+
+    #bennar {
+        margin: 50px auto 50px auto;
+    }
+
+    .bennar-content-text {
+        margin-bottom: 15px;
+    }
+
+    .bennar-content-text h1 {
+        font-size: 24px;
+    }
+
+    .bennar-content-text p {
+        font-size: 10px;
+    }
+
+    #developer {
+        margin: 50px auto 50px auto;
+    }
+
+    .developer-heading h2 {
+        font-size: 24px;
+    }
+
+    .developer-heading p {
+        font-size: 10px;
+    }
+
+    .developer-heading {
+        margin-bottom: 30px;
+    }
+
+    .developer-content-text {
+        padding: 25px;
+    }
+
+    .developer-content-text h2 {
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .developer-content-text p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .developer-content-img {
+        padding: 25px;
+    }
+
+    .developer-content-img img {
+        width: 100%;
+    }
+
+    #inspiration {
+        margin: 50px auto 50px auto;
+    }
+
+    .inspiration-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .inspiration-heading p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .conten-video iframe {
+        width: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .target-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .target-heading p {
+        font-size: 12px;
+    }
+
+    #footer {
+        padding: 16px 75px 16px 75px;
+    }
+
+    .footer-icon {
+        gap: 10px;
+    }
+}
+
+/* Mobile device */
+@media screen and (max-width:640px) {
+    .bennar-img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .developer-content {
+        flex-direction: column-reverse;
+    }
+
+    .developer-content-text {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .developer-content-img {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+
+    #target {
+        margin: 50px auto 50px auto;
+    }
+
+    #footer {
+        padding: 8px 35px 8px 35px;
+        flex-direction: column;
+    }
+    .footer-content{
+        text-align: center;
+    }
+
+    .footer-content h5 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footer-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-icon img {
+        width: 15px;
+    }
+}
